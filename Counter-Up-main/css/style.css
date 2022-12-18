@@ -1,0 +1,65 @@
+/*Common Css Start*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/*Common Css End*/
+
+
+/*Counter Up Part Start*/
+.counter_part_start{
+    height: 300px;
+    width: 100%;
+    background: rgb(255, 64, 64);
+}
+
+.counter_part{
+    display: flex;
+    justify-content: space-between;
+}
+.box_one{
+    height: 160px;
+    width: 250px;
+    background: rgb(239, 223, 255);
+    margin-top: 75px;
+    border-radius: 30px;
+}
+
+.icon{
+    padding-top: -5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box_text{
+    
+    text-align: center;
+}
+
+.box_text h1{
+
+    font-weight: 700;
+}
+
+.box_text h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 5px;
+}
+/*Counter Up Part End*/
+
